@@ -33,7 +33,7 @@ public class Student {
     void display() {
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Name: " + name);
-        System.out.print("Marks: " + marks[1]);
+        System.out.print("Marks: " + marks[0]);
         for (int i = 1; i < 5; i++)
             System.out.print(", " + marks[i]);
         System.out.println("\nGrade: " + calculateGrade() + "\n\n");
